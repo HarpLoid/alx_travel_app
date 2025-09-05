@@ -1,5 +1,5 @@
 """
-URL configuration for alx_travel_app project.
+URL configuration for alx_travel_app_project project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -23,9 +23,9 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="ALX_TRAVEL_APP API",
+      title="alx_travel_app_project API",
       default_version='v1',
-      description="API documentation for alx_travel_app."
+      description="API documentation for alx_travel_app_project."
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
